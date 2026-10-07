@@ -1,0 +1,2 @@
+# Matches the Amazon provider in the original apache/airflow:3.3.2 image.
+apache-airflow-providers-amazon==9.36.0

@@ -1,0 +1,23 @@
+# Local credentials and machine-specific tooling.
+/.env
+/.env.*
+!/.env.example
+/.aws/
+/.agents/
+/.codex/
+
+# Airflow-generated configuration, logs, SQLite databases, and process files.
+/config/airflow.cfg
+/airflow.cfg
+/logs/
+airflow.db
+airflow.db-*
+airflow*.pid
+/standalone_admin_password.txt
+
+# Python runtime and development caches; DAG and plugin source stays trackable.
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/

@@ -1,0 +1,12 @@
+.git
+.agents
+.aws
+.codex
+.env
+.env.*
+config
+logs
+dags
+plugins
+docs
+__pycache__
